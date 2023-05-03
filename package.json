@@ -1,0 +1,37 @@
+{
+  "name": "@wojciechkrol/hermes-intl",
+  "version": "1.0.0",
+  "description": "Library that fixes issues with Intl TimeZones in Hermes Engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "keywords": [
+    "hermes",
+    "timezone",
+    "intl",
+    "polyfill",
+    "react-native"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wojciechkrol/hermes-intl.git"
+  },
+  "author": "Wojciech Krol <wk20981@gmail.com> (https://github.com/wojciechkrol)",
+  "license": "MIT",
+  "dependencies": {
+    "@formatjs/intl-datetimeformat": "6.5.1",
+    "@formatjs/intl-displaynames": "6.2.6",
+    "@formatjs/intl-getcanonicallocales": "2.1.0",
+    "@formatjs/intl-listformat": "7.1.9",
+    "@formatjs/intl-locale": "3.1.1",
+    "@formatjs/intl-numberformat": "8.3.5",
+    "@formatjs/intl-pluralrules": "5.1.10",
+    "@formatjs/intl-relativetimeformat": "11.1.10"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.8",
+    "react-native": ">=0.50.1"
+  }
+}
